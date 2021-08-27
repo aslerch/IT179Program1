@@ -6,6 +6,7 @@ public class MainClass {
 
         StudentReport stuRep = new StudentReport("Grades.csv");
         stuRep.readFile();
+        stuRep.writeFile("Hannah Abbott");
 
     }
 
